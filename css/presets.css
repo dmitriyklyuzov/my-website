@@ -2,6 +2,10 @@
 	display: inline-block;
 }
 
+.margin-bottom-0em{
+	margin-bottom: 0em;
+}
+
 .padding-top-0{
 	padding-top:0px;
 }

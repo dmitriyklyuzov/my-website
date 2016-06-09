@@ -1,11 +1,114 @@
-* {
+h1 {
+  font: 400 95px/1.6 'Pacifico', Georgia, serif;
+}
+
+.navbar .navbar-brand {
+	/*font: 400 16px/1.6 'Pacifico', Georgia, serif;*/
+	font: 400 16px/1.6 'Arimo', Verdana, Helvetica, sans-serif;
+}
+ 
+p, .navbar .navbar-nav li a {
+  font: 400 16px/1.6 'Arimo', Verdana, Helvetica, sans-serif;
+}
+
+.navbar {
   border-radius: 0 !important;
+}
+
+html{
+	margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../img/backgrounds/mountains-copy.jpg") 50% 50% fixed;
+    /*background: url("../img/backgrounds/mountains.jpg") 50% 50% fixed;*/
+    background-size: cover;
+}
+
+body{
+	background-color: transparent;
+}
+
+.container{
+	max-width: 60em;
 }
 
 .navbar .navbar-brand, .navbar .navbar-nav li a {
     color: white;
+    /*font: 400 16px/1.6 'Arimo', Verdana, Helvetica, sans-serif;*/
 }
 
 .navbar-inverse .navbar-toggle{
 	border-color:transparent;
+}
+
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: 0px;
+  }
+}
+
+.jumbotron{
+	color: #fff;
+	background-color: transparent;
+}
+
+.row{
+	height: 300px;
+}
+
+.thumbnail{
+	padding: 0em;
+	border: 0px;
+}
+
+.thumbnail img{
+	width: 100%;
+}
+
+.website-card{
+	/*height: 400px;
+	margin-bottom: 100px;
+	display: block;*/
+}
+
+#time-reflections{
+	height: 350px;
+	margin-bottom: 100px;
+	display: block;
+	background:url("../img/websites/time-reflections-wide.png");
+	background-size: cover;
+}
+
+#usten-law{
+	height: 350px;
+	margin-bottom: 100px;
+	display: block;
+	background:url("../img/websites/usten-law.png");
+	background-size: cover;
+}
+
+#books4baruch{
+	height: 350px;
+	margin-bottom: 100px;
+	display: block;
+	background:url("../img/websites/books4baruch-wide.png");
+	background-size: cover;
+}
+
+#time-reflections:hover{
+	height: 582px;
+}
+
+#usten-law:hover{
+	height: 582px;
+}
+
+#books4baruch:hover{
+	height: 400px;
+}
+
+a{
+	max-width: 100%;
+	height: 100%;
+	display: block;
 }
